@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Noto Nastaliq Urdu
+- Font Author: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/nastaliq)
+- Font Source: http://fonts.gstatic.com/s/notonastaliqurdu/v20/LhWNMUPbN-oZdNFcBy1-DJYsEoTq5pudQ9L940pGPkB3Qt_-DK2f2-_8mEw.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))
