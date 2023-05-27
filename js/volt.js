@@ -173,7 +173,7 @@ d.addEventListener("DOMContentLoaded", function(event) {
 
     if(d.querySelector('.ct-chart-sales-value')) {
         //Chart 5
-          new Chartist.Line('.ct-chart-sales-value', {
+          new Chartist.LineChart('.ct-chart-sales-value', {
             labels: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
             series: [
                 [0, 10, 30, 40, 80, 60, 100]

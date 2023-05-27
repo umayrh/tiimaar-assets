@@ -17,6 +17,11 @@ h2 {
   color:red;
 }
 
+.mb-3.required .form-label:after {
+  content:"*";
+  color:red;
+}
+
 /*, Turn carousel arrows a shade of grey */ {
 .carousel-control-next,
 .carousel-control-prev

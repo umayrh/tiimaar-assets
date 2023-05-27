@@ -1,0 +1,51 @@
+svg.ct-chart-bar, svg.ct-chart-line{
+	overflow: wrap;
+}
+
+.ct-series-a {
+  stroke-dasharray: 1093;
+  stroke-dashoffset: 1093;
+  -webkit-animation: draw 1s 0.1s ease both;
+          animation: draw 1s 0.1s ease both;
+  fill: none;
+  opacity: 0.8;
+}
+
+.ct-series-b {
+  stroke-dasharray: 1665;
+  stroke-dashoffset: 1665;
+  -webkit-animation: draw 1s 0.25s ease both;
+          animation: draw 1s 0.25s ease both;
+  fill: none;
+  opacity: 0.8;
+}
+
+.ct-series-c {
+  stroke-dasharray: 1644;
+  stroke-dashoffset: 1644;
+  -webkit-animation: draw 1s 0.5s ease both;
+          animation: draw 1s 0.5s ease both;
+  fill: none;
+  opacity: 0.8;
+}
+
+.ct-series-d {
+  stroke-dasharray: 1540;
+  stroke-dashoffset: 1540;
+  -webkit-animation: draw 1s 0.75s ease both;
+          animation: draw 1s 0.75s ease both;
+  fill: none;
+  opacity: 0.8;
+}
+
+@-webkit-keyframes draw {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes draw {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
