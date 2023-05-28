@@ -183,7 +183,7 @@ d.addEventListener("DOMContentLoaded", function(event) {
             showArea: true,
             fullWidth: true,
             plugins: [
-              Chartist.plugins.tooltip()
+              Chartist.plugins.tooltip(),
             ],
             axisX: {
                 // On the x-axis start means top and end means bottom
