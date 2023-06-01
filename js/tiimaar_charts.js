@@ -1,6 +1,6 @@
 
-make_line_chart_fn = function(div_class_name, chart_labels, chart_series, chart_legend) {
-    new Chartist.LineChart(
+make_line_chart_fn = function(div_class_name, chart_labels, chart_series, chart_legend, legend_elem) {
+   chart =  new Chartist.LineChart(
       div_class_name,
       {
         labels: chart_labels,
@@ -25,6 +25,7 @@ make_line_chart_fn = function(div_class_name, chart_labels, chart_series, chart_
         },
         plugins: [
           Chartist.plugins.legend({
+              position: legend_elem != null ? legend_elem : 'top',
               legendNames: chart_legend,
           }),
           /*
@@ -50,5 +51,8 @@ make_line_chart_fn = function(div_class_name, chart_labels, chart_series, chart_
           })
           */
         ]
+    });
+    $(window).on('resize', function() {
+      chart.update();
     });
 }
