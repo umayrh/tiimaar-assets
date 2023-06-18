@@ -28,6 +28,10 @@ make_line_chart_fn = function(div_class_name, chart_labels, chart_series, chart_
               position: legend_elem != null ? legend_elem : 'top',
               legendNames: chart_legend,
           }),
+          Chartist.plugins.ctPointLabels({
+              textAnchor: 'middle',
+              labelInterpolationFnc: function(value) {return value == null ? '' : value}
+          }),
           /*
           Chartist.plugins.ctAxisTitle({
             axisX: {
