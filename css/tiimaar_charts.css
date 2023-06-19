@@ -1,3 +1,22 @@
+/* https://stackoverflow.com/a/45455835
+$ct-series-colors: (
+        #d70206,
+        #f05b4f,
+        #f4c63d,
+        #d17905,
+        #453d3f,
+        #59922b,
+        #0544d3,
+        #6b0392,
+        #f05b4f,
+        #dda458,
+        #eacf7d,
+        #86797d,
+        #b2c326,
+        #6188e2,
+        #a748ca
+) !default;
+*/
 svg.ct-chart-bar, svg.ct-chart-line{
 	overflow: wrap;
 }
@@ -57,7 +76,22 @@ svg.ct-chart-bar, svg.ct-chart-line{
    background-color: #453d3f;
    border-color: #453d3f;
 }
-
+.ct-legend .ct-series-5:before {
+   background-color: #59922b;
+   border-color: #59922b;
+}
+.ct-legend .ct-series-6:before {
+   background-color: #0544d3;
+   border-color: #0544d3;
+}
+.ct-legend .ct-series-7:before {
+   background-color: #6b0392;
+   border-color: #6b0392;
+}
+.ct-legend .ct-series-8:before {
+   background-color: #f05b4f;
+   border-color: #f05b4f;
+}
 .ct-chart-line-multipleseries .ct-legend .ct-series-0:before {
   background-color: #d70206;
   border-color: #d70206;
