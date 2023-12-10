@@ -58,3 +58,8 @@ border-radius: 0.5rem; }
 color: #F2F4F6; }
 .multi-level .nav-link {
 padding-left: 53px; }
+
+div.dataTables_wrapper {
+        width: 800px;
+        margin: 0 auto;
+    }
